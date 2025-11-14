@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My User Profile</title>
+  <style>
+
+    header,
+    nav,
+    section {
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    section {
+      border-bottom: 1px solid #ccc;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+    }
+
+    label {
+      margin-top: 0.5rem;
+      margin-bottom: 0.2rem;
+    }
+
+    input,
+    textarea,
+    select {
+      padding: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    button {
+      padding: 0.7rem;
+      cursor: pointer;
+    }
+
+    .header-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header-nav">
+
+    <header>
+      <h1>Piyush</h1>
+    </header>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium ipsa praesentium illum architecto quis nisi
+      illo repellat, eligendi iure dolorem temporibus qui magni dicta sed assumenda doloribus quod non cupiditate.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae perferendis ratione vel nostrum animi
+      incidunt, reiciendis quia quod, libero excepturi accusamus illo consectetur nisi pariatur dolorum eaque velit.
+      Commodi, aut?
+      Maiores sed adipisci soluta optio assumenda mollitia nam corporis similique commodi repellat numquam consectetur
+      sapiente necessitatibus, dolores illo. Recusandae aliquam quae repellat pariatur fugit distinctio molestias
+      perferendis hic tempora maxime?
+      Provident blanditiis dolores dignissimos delectus in. Incidunt assumenda, dolor eum fuga nostrum obcaecati, non
+      quis, consectetur perspiciatis minima voluptas. Similique aperiam id aspernatur quia, amet voluptate eveniet nobis
+      nulla accusantium?
+      Corporis rem tenetur minus sit impedit ad, quisquam quas adipisci aspernatur nulla est consectetur aut nam
+      mollitia fugit? Vero ipsam exercitationem quo error non nihil consequatur nesciunt. Odio, dicta voluptatibus.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus cupiditate vero voluptatum, excepturi facere
+      et assumenda vel sed itaque praesentium minus temporibus? Odit fugiat, aliquid explicabo inventore quibusdam
+      eligendi ratione?
+      Perspiciatis perferendis pariatur maxime dolor earum temporibus blanditiis delectus asperiores deleniti id quae
+      saepe consequatur unde, placeat repellat libero officia eaque ut nesciunt magnam commodi aut voluptatibus
+      necessitatibus est. Placeat!
+      Totam aperiam ullam esse, molestiae saepe assumenda voluptas atque, architecto deleniti adipisci enim dolor quidem
+      vel velit fugit, reprehenderit error. Consectetur placeat quia earum harum facilis modi nam mollitia reiciendis.
+      Hic eum aperiam tempore accusamus aut dolore, nisi alias rem inventore architecto expedita deserunt ipsa minima
+      maiores numquam odit nihil sint autem atque veniam reprehenderit ea veritatis itaque animi. Minima.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Name...">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Email..">
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Message.." rows="3"></textarea>
+
+      <button type="submit">Send </button>
+    </form>
+  </section>
+
+
+
+</body>
+
+</html>
