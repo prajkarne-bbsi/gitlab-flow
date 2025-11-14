@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+}
+
+.contact {
+  width: 70%;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+form>div {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+form textarea {
+  height: 200px;
+  resize: vertical;
+}
+
+form input,
+form textarea {
+  padding: 8px;
+  font-size: inherit;
+  font-size: 1rem;
+}
+
+form button {
+  width: 150px;
+  padding: 10px;
+  cursor: pointer;
+  align-self: center;
+}
