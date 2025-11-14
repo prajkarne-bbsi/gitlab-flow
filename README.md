@@ -57,9 +57,3 @@ GitLab Flow strikes a balance between Git Flow and GitHub Flow. It adopts GitHub
 - **Merged into**: `main`
 - **Rule**: Delete immediately after merge
 
-### Release Branches (`release/*`) - Optional
-- **Purpose**: Support specific release versions
-- **Naming Convention**: `release/v1.2.x` or `release/2024-11`
-- **Created from**: `main` or specific commit
-- **Lifespan**: Long-lived, maintained for version support
-- **Use case**: When supporting multiple versions in production
